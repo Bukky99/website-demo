@@ -6,7 +6,6 @@ function App() {
   return (
     <PageWrapper>
       <Home />
-      <div>Hello!</div>
     </PageWrapper>
   );
 }
