@@ -9,9 +9,9 @@ function App() {
       <Router>
         <Routes>
           <Route 
-          path="/home"
-          component={Home}
-        />
+            path="/home"
+            element={<Home />}
+          />
         </Routes>
       </Router>
     </PageWrapper>
