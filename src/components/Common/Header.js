@@ -1,13 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function Header(){
+function Header({title, subtitle, showButton, buttonText, link}){
     return (
-        <header className="masthead">
+        <header className="masthead">  
             <div className="container">
-                <div className="masthead-subheading">{this.props.title}</div>
-                <div className="masthead-heading text-uppercase">{this.props.subtitle}</div>
-                <Link className="btn btn-primary btn-xl text-uppercase" to={this.props.link}>{this.props.buttonText}</Link>
+                <div className="masthead-subheading">{title}</div>
+                <div className="masthead-heading text-uppercase">{subtitle}</div>
+                {showButton &&
+                    <Link className="btn btn-primary btn-xl text-uppercase" to={link}>{buttonText}</Link>
+                }
             </div>
         </header>
     )
