@@ -8,7 +8,6 @@ const services = [
 ];
 
 function Services() {
-    console.log('service', services)
     return(
         <section className="page-section" id="services">
             <div className="container">

@@ -1,7 +1,6 @@
 import React from 'react';
 
 function SingleService(service) {
-    console.log('service', service)
     return(
         <div className="col-md-4">
             <span className="fa-stack fa-4x">
