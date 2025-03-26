@@ -10,7 +10,7 @@ function About() {
         <div>
             <Header 
                 title="About Us"
-                subtitle="Its really a great story!"
+                subtitle="Scroll down to find out more!"
                 showButton={false}
                 image={image}
             />
