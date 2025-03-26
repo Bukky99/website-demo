@@ -5,6 +5,8 @@ import image from '../assets/img/header-bg.jpg';
 //Re-usable Components
 import Services from '../Common/Services';
 import Portfolio from '../Common/Portfolio';
+import Timeline from '../Common/Timeline';
+import Team from '../Common/Team';
 
 function Home(){
     return(
@@ -20,6 +22,8 @@ function Home(){
 
            <Services />
            <Portfolio />
+           <Timeline />
+           <Team />
         </div>
     )
 }
